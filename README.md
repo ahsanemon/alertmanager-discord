@@ -15,7 +15,7 @@ global:
   smtp_auth_username: 'alertmanager'
   smtp_auth_password: 'password'
 
-# The directory from which notification templates are read.
+# The directory from which notification templates are read. (optional)
 templates: 
 - '/etc/alertmanager/template/*.tmpl'
 
